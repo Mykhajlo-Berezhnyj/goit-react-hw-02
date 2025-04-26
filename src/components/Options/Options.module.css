@@ -1,0 +1,33 @@
+.btn-wrap {
+    display: flex;
+    justify-content: left;
+}
+
+.btn-option {
+    width: 5em;
+    margin-right: 1em;
+    border: 1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    outline: none;
+    scale: 1;
+    transition: all cubic-bezier(1, 0, 0, 1);
+    text-transform: capitalize;
+}
+
+.btn-option:hover {
+    border: 1px solid maroon;
+    scale: 1.05;
+    color: maroon;
+    background: rgba(128, 0, 0, 0.151);
+}
+
+.btn-option:focus {
+   border: 1px solid maroon;
+}
+
+.btn-option:active {
+    border: 1px solid coral;
+    border: 1px solid brown;
+    scale: 1.07;
+}

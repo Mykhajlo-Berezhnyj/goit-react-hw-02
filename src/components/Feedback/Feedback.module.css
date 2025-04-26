@@ -1,0 +1,22 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.p-feedback {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.good {
+    color: limegreen;
+}
+.neutral {
+color: gray;
+}
+
+.bad {
+    color: red;
+}
