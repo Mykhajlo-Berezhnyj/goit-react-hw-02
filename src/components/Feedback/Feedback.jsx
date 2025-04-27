@@ -23,9 +23,12 @@ const Feedback = ({ options, totalFeedback, goodPercent }) => {
       return { color: "crimson", emoji: "😔😕🙁" };
     } else if (percent >= 15) {
       return { color: "firebrick", emoji: "😔😕🙁😥" };
+    } else if (percent >= 5) {
+      return { color: "red", emoji: "😔😕🙁😥😭" };
     }
     return { color: "red", emoji: "😔😕🙁😥😭🥵" };
   };
+
   const { color, emoji } = goodPercentStyle(goodPercent);
   return (
     <div className={css.feedback}>
